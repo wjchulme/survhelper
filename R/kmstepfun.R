@@ -9,7 +9,7 @@
 #' @return A function of class "stepfun"
 #' @keywords survival, kaplan-meier
 
-kmest <-
+kmstepfun <-
   function(
     day,
     time,
@@ -25,4 +25,4 @@ kmest <-
 
 
 #' @examples
-#' kmest()
+#' kmstepfun()
