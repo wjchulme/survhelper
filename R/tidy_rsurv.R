@@ -5,7 +5,7 @@
 #' @param rsurvfit Object of class "survfit" from [relsurv::rs.surv()]
 #' @return A tibble.
 #' @keywords survival, relative survival
-
+#' @export
 
 # clean-up and add variables to output from rs.surv model object
 # returns tibble
