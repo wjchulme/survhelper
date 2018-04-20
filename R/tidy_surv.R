@@ -14,7 +14,7 @@ tidy_surv <-
     expand = FALSE
   ) {
 
-  if (!full) {
+  if (!expand) {
     output <-
       survfit %>%
       tidy() %>%
