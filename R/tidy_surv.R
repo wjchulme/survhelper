@@ -6,7 +6,7 @@
 #' @param expand Logical. if true then expand survival estimates to include rows for days when no events (or censoring) occurred.
 #' @return A tibble.
 #' @keywords survival
-
+#' @export
 
 tidy_surv <-
   function(

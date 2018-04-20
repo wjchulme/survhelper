@@ -8,6 +8,7 @@
 #' @param estimate "surv" (point estimate), "lower" (lower conf limit), "upper" (upper conf limit)
 #' @return A function of class "stepfun"
 #' @keywords survival, kaplan-meier
+#' @export
 
 kmstepfun <-
   function(

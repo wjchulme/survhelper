@@ -8,9 +8,9 @@
 #' @param estimate "surv" (point estimate), "lower" (lower conf limit), "upper" (upper conf limit)
 #' @return A tibble
 #' @keywords survival
+#' @export
 
-#
-# returns tibble
+
 edererIIhaz <-
   function(
     .data,
